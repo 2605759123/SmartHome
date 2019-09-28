@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:listDivider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:layout_height="54dp">
+        <LinearLayout
+            android:id="@+id/ll_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/iv_home"
+                android:src="@drawable/ic_home_unselected"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:id="@+id/tv_home"
+                android:text="首页"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/home_unselected"
+                android:textSize="14sp"/>
+            
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_power"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/iv_power"
+                android:src="@drawable/ic_power_off"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/iv_me"
+                android:src="@drawable/ic_person_unselected"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                />
+            <TextView
+                android:id="@+id/tv_me"
+                android:text="我的"
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/home_unselected"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
