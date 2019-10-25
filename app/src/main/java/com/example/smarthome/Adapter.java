@@ -46,7 +46,7 @@ public class Adapter extends ArrayAdapter<MySettingdata> {
     String Servlet;
     String method;
     String powername;
-    private String tuatus="201";
+    private String tuatus="201";//状态
     private String deletetuatus="204";
 
     @NonNull
